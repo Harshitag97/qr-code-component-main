@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        font-family: "outline", sans-serif;
+        background-color: hsl(220, 15%, 55%);
+      }
+      .card {
+        width: 350px;
+        background-color: white;
+        box-shadow: 0px 3px 15px;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .img {
+        max-width: 100%;
+        border-radius: 10px;
+      }
+      .title {
+        text-align: center;
+        margin: 20px 0;
+        font-size: 1.4rem;
+        color: hsl(218, 44%, 22%);
+        padding: 10px;
+      }
+      .card > p {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 15px;
+        color: hsl(218, 44%, 22%);
+        font-weight: 300px;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img src="./images/image-qr-code.png" class="img" />
+      <h1 class="title">Improve your front-end skills by building project</h1>
+      <p>
+        Scan the QR code to visit Frontend Mentor and take your coding skills to
+        next level
+      </p>
+    </div>
+  </body>
+</html>
