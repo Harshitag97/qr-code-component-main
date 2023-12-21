@@ -1,5 +1,5 @@
 # Deployement Link 
-- [Netlify](https://pages.github.com/](https://qr-code-frontendmentor001.netlify.app)
+- [Netlify](https://qr-code-frontendmentor001.netlify.app/)
 
 
 # Frontend Mentor - QR code component
